@@ -1,0 +1,39 @@
+name: "Örtendahls familjecentral"
+version: "7.0.0"
+slug: "ortendahls_familjecentral"
+description: "Örtendahls familjecentral - Kalender och Sysslor"
+url: "https://github.com/S1887/Familjecentralen"
+arch:
+  - amd64
+  - aarch64
+  - armv7
+init: false
+homeassistant_api: false
+host_network: false
+ingress: true
+ingress_port: 3001
+panel_icon: mdi:calendar-check
+panel_title: "Familjecentral"
+image: ghcr.io/s1887/familjecentralen:{version}
+options:
+  gemini_api_key: ""
+  ical_svante: ""
+  ical_sarah: ""
+  ical_family: ""
+  calendar_svante: ""
+  calendar_sarah: ""
+  calendar_family: ""
+  google_credentials: ""
+  ha_url: ""
+  ha_token: ""
+schema:
+  gemini_api_key: str?
+  ical_svante: str?
+  ical_sarah: str?
+  ical_family: str?
+  calendar_svante: str?
+  calendar_sarah: str?
+  calendar_family: str?
+  google_credentials: str?
+  ha_url: str?
+  ha_token: str?
