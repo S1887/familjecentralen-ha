@@ -14,7 +14,7 @@ ingress: true
 ingress_port: 3001
 panel_icon: mdi:calendar-check
 panel_title: "Familjecentral"
-image: ghcr.io/s1887/familjecentralen:{version}
+image: ghcr.io/s1887/familjecentralen
 options:
   gemini_api_key: ""
   ical_svante: ""
