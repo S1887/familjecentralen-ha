@@ -1,5 +1,5 @@
 name: "Örtendahls familjecentral"
-version: "7.5.0"
+version: "7.5.1"
 slug: "ortendahls_familjecentral"
 description: "Örtendahls familjecentral - Kalender och Sysslor"
 url: "https://github.com/S1887/Familjecentralen"
@@ -28,6 +28,7 @@ options:
   google_credentials: ""
   ha_url: ""
   ha_token: ""
+  screensaver_image: ""
 schema:
   gemini_api_key: str?
   ical_svante: str?
@@ -39,3 +40,4 @@ schema:
   google_credentials: str?
   ha_url: str?
   ha_token: str?
+  screensaver_image: str?
