@@ -1,5 +1,5 @@
 name: "Örtendahls familjecentral"
-version: "8.3.28"
+version: "8.3.29"
 slug: "ortendahls_familjecentral"
 description: "Örtendahls familjecentral - Kalender och Sysslor"
 url: "https://github.com/S1887/Familjecentralen"
@@ -18,7 +18,6 @@ panel_icon: mdi:calendar-check
 panel_title: "Familjecentral"
 image: ghcr.io/s1887/familjecentralen
 options:
-  gemini_api_key: ""
   ical_svante: ""
   ical_sarah: ""
   ical_family: ""
@@ -30,7 +29,6 @@ options:
   ha_token: ""
   screensaver_image: ""
 schema:
-  gemini_api_key: str?
   ical_svante: str?
   ical_sarah: str?
   ical_family: str?
